@@ -1,11 +1,16 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import styled, { css } from "styled-components";
 
+import LanguageSelector from "./LanguageSelector";
+
 const Header: React.FC<{}> = () => {
+    const { t } = useTranslation();
     return (
         <Wrapper>
-            <Title>//frontend developer</Title>
-            <SubTitle>//coding mum</SubTitle>
+            <LanguageSelector />
+            <Title>{t("header.title")}</Title>
+            <Subtitle>{t("header.subtitle")}</Subtitle> 
         </Wrapper>
     );
 };
@@ -25,7 +30,7 @@ const title = css`
 const Title = styled.h1`
     ${title};
 `;
-const SubTitle = styled.h2`
+const Subtitle = styled.h2`
     ${title};
 `;
 

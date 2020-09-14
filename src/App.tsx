@@ -1,10 +1,13 @@
-import React from "react";
-import Header from "./components/Header";
+import React, { Suspense } from "react";
+import "./i18n";
+import Header from "./components/header/Header";
 
 const App: React.FC<{}> = () => {
     return (
         <div className="App">
-            <Header />
+            <Suspense fallback={null}>
+                <Header />
+            </Suspense>
         </div>
     );
 };
