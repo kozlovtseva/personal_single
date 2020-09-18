@@ -1,15 +1,25 @@
 import React, { Suspense } from "react";
 import "./i18n";
+import styled, { ThemeProvider } from "styled-components";
+
+import { theme } from "./Theme";
 import Header from "./components/header/Header";
 
 const App: React.FC<{}> = () => {
     return (
-        <div className="App">
-            <Suspense fallback={null}>
-                <Header />
-            </Suspense>
-        </div>
+        <ThemeProvider theme={theme}>
+            <Wrapper className="App">
+                <Suspense fallback={null}>
+                    <Header />
+                </Suspense>
+            </Wrapper>
+        </ThemeProvider>
     );
 };
+
+const Wrapper = styled.div`
+    margin: 0 auto;
+    max-width: 1440px;
+`;
 
 export default App;
