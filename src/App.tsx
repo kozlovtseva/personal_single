@@ -4,6 +4,7 @@ import styled, { ThemeProvider } from "styled-components";
 
 import { theme } from "./Theme";
 import Header from "./components/header/Header";
+import About from "./components/about/About";
 
 const App: React.FC<{}> = () => {
     return (
@@ -11,6 +12,7 @@ const App: React.FC<{}> = () => {
             <Wrapper className="App">
                 <Suspense fallback={null}>
                     <Header />
+                    <About />
                 </Suspense>
             </Wrapper>
         </ThemeProvider>

@@ -4,7 +4,7 @@ import { css } from "styled-components";
 
 import { styled, media } from "../../Theme";
 import Background from "../../images/me.jpg";
-import LanguageSelector from "./LanguageSelector";
+import LanguageSelector from "../UI/LanguageSelector";
 import NameGoesRound from "./NameGoesRound";
 import ContactsAnchor from "./ContactsAnchor";
 
@@ -36,9 +36,13 @@ const title = css`
         font-size: 1em;
         max-width: 100%;
     }
+    ${media.lg} {
+        margin-left: 0px;
+    }
     font: 400 1.7em "Cutive Mono", monospace;
     color: ${(props) => props.theme.color.lightText};
     max-width: 70%;
+    margin-left: 65px;
 `;
 const Title = styled.h1`
     ${title};

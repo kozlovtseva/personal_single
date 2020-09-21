@@ -4,5 +4,9 @@
         "subtitle": "//coding mum",
         "name": "Alina Kozlovtseva",
         "anchor": "contact me"
+    },
+    "about": {
+        "title": "About me",
+        "text": "I have a degree in linguistics, but I have moved from studying natural languages to programming ones. I'm the one who creates beauty and order out of everything."
     }
 }
