@@ -8,5 +8,9 @@
     "about": {
         "title": "About me",
         "text": "I have a degree in linguistics, but I have moved from studying natural languages to programming ones. I'm the one who creates beauty and order out of everything."
+    },
+    "skills": {
+        "title": "Hard skills,",
+        "subtitle": "which I've mastered while learnining, on work experience and during real projects development"
     }
 }

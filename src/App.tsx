@@ -5,6 +5,7 @@ import styled, { ThemeProvider } from "styled-components";
 import { theme } from "./Theme";
 import Header from "./components/header/Header";
 import About from "./components/about/About";
+import SkillsTitle from "./components/skills/SkillsTitle";
 
 const App: React.FC<{}> = () => {
     return (
@@ -13,6 +14,7 @@ const App: React.FC<{}> = () => {
                 <Suspense fallback={null}>
                     <Header />
                     <About />
+                    <SkillsTitle />
                 </Suspense>
             </Wrapper>
         </ThemeProvider>

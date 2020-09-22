@@ -24,7 +24,6 @@ const Section = styled.section`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 100vh;
     padding: 100px;
     ${media.sm} {
         padding: 35px;
@@ -37,7 +36,7 @@ const Text = styled.p`
     color: ${(props) => props.theme.color.lightDarkText};
     margin-bottom: 20px;
     ${media.sm} {
-        font-size: 0.7em;
+        font-size: 0.5em;
     }
 `;
 
