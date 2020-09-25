@@ -1,0 +1,324 @@
+{
+    "nodes": [
+        {
+            "text": "ReactJS",
+            "size": 250,
+            "group": 1
+        },
+        {
+            "text": "Redux",
+            "size": 90,
+            "group": 1
+        },
+        {
+            "text": "NextJS",
+            "size": 90,
+            "group": 1
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 1
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 1
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 1
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 1
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 1
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 1
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 1
+        },
+        {
+            "text": "JS",
+            "size": 250,
+            "group": 2
+        },
+        {
+            "text": "TypeScript",
+            "size": 90,
+            "group": 2
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 2
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 2
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 2
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 2
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 2
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 2
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 2
+        },
+        {
+            "text": "CSS",
+            "size": 100,
+            "group": 3
+        },
+        {
+            "text": "SCSS",
+            "size": 70,
+            "group": 3
+        },
+        {
+            "text": "MaterialUI",
+            "size": 110,
+            "group": 3
+        },
+        {
+            "text": "Styled Components",
+            "size": 250,
+            "group": 3
+        },
+        {
+            "text": "Bootstrap",
+            "size": 90,
+            "group": 3
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 3
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 3
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 3
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 3
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 3
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 3
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 3
+        },
+        {
+            "text": "HTML",
+            "size": 80,
+            "group": 4
+        },
+        {
+            "text": "Pug",
+            "size": 30,
+            "group": 4
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 4
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 4
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 4
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 4
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 4
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 4
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 4
+        },
+        {
+            "text": "Git",
+            "size": 100,
+            "group": 5
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 5
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 5
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 5
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 5
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 5
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 5
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 5
+        },
+        {
+            "text": "Figma",
+            "size": 110,
+            "group": 6
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 6
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 6
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 6
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 6
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 6
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 6
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 6
+        },
+        {
+            "text": "BEM",
+            "size": 90,
+            "group": 7
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 7
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 7
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 7
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 7
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 7
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 7
+        },
+        {
+            "text": "",
+            "size": 1,
+            "group": 7
+        }
+    ]
+}
