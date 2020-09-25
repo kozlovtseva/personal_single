@@ -6,6 +6,7 @@ import { theme } from "./Theme";
 import Header from "./components/header/Header";
 import About from "./components/about/About";
 import SkillsTitle from "./components/skills/SkillsTitle";
+import Skills from "./components/skills/Skills";
 
 const App: React.FC<{}> = () => {
     return (
@@ -15,6 +16,7 @@ const App: React.FC<{}> = () => {
                     <Header />
                     <About />
                     <SkillsTitle />
+                    <Skills />
                 </Suspense>
             </Wrapper>
         </ThemeProvider>

@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { styled, media } from "../../Theme";
 import SmallTitle from "../UI/SmallTitle";
 import NoteImage from "./NoteImage";
-import CheckVisibility from "../../assets/CheckVisibility";
+import CheckVisibility from "../../helpers/CheckVisibility";
 
 interface TextProps {
     isRefVisible: Boolean;

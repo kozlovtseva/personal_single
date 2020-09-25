@@ -2,7 +2,7 @@ import React from "react";
 
 import { styled, media } from "../../Theme";
 
-import CheckVisibility from "../../assets/CheckVisibility";
+import CheckVisibility from "../../helpers/CheckVisibility";
 import { ReactComponent as Notebook } from "../../images/notebook.svg";
 
 const NoteImage: React.FC<{}> = () => {
@@ -24,6 +24,10 @@ const Wrapper = styled.div`
         ${media.sm} {
             height: 252px;
             width: 300px;
+        }
+        ${media.xs} {
+            height: 210px;
+            width: 250px;
         }
     }
     & svg .appear {

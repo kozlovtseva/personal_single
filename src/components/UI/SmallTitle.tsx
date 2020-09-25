@@ -1,7 +1,7 @@
 import React from "react";
 
 import { styled, media } from "../../Theme";
-import CheckVisibility from "../../assets/CheckVisibility";
+import CheckVisibility from "../../helpers/CheckVisibility";
 
 interface Props {
     title: string;
