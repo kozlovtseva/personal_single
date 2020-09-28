@@ -12,5 +12,59 @@
     "skills": {
         "title": "Hard skills,",
         "subtitle": "which I've mastered while learnining, on work experience and during real projects development"
+    },
+    "portfolio": {
+        "title": "Portfolio",
+        "subtitle": "I've entered the profession in november, 2018",
+        "projects": [
+            {
+                "name": "Messenger for an educational portal",
+                "details": [
+                    "On-the-job programming training",
+                    "Desktop app development on ReactJS + Redux (routing by the means of React Router).",
+                    "Backend interaction using REST API. Мessage exchange with the help of socket.io",
+                    "Styling by using CSS-modules."
+                ],
+                "link": "https://github.com/kozlovtseva/pocket-js-web/tree/develop",
+                "image": "messenger.jpg",
+                "button": "view"
+            },
+            {
+                "name": "Education project",
+                "details": [
+                    "Landing page which is built with Bootstrap4 and has multimedia (<video>, <audio>), visual effects (parallax, slider), dynamic content changing.",
+                    "BEM methodology for naming, HTML5 semantic elements, animation",
+                    "SASS(SCSS) preprocessor. Elements layout is made with Flexbox.",
+                    "The project is built with Gulp and hosted on GitHub Pages."
+                ],
+                "link": "https://kozlovtseva.github.io/farm/",
+                "image": "farm.jpg",
+                "button": "view"
+            },
+            {
+                "name": "ATLANTMZS",
+                "details": [
+                    "Marketplace for furniture market (slicing according to design in Figma, authorization/registration, contact forms)",
+                    "Frontend on NextJS. TypeScript.",
+                    "Requests to the backend have been being made with GraphQL (with Urql GraphQ client for React in particular).",
+                    "Components and styling are made by the means of MaterialUI"
+                ],
+                "link": "https://atlantmzs.ru/",
+                "image": "mzs.jpg",
+                "button": "view"
+            },
+            {
+                "name": "Personal account for ATLANTMZS",
+                "details": [
+                    "Personal account (authorization/registration, company account and personal account, Kanban boards for leads and advertisements)",
+                    "Frontend on ReactJS",
+                    "Requests to the backend have been being made with GraphQL (with Urql GraphQ client for React in particular).",
+                    "Components and styling are made by the means of MaterialUI"
+                ],
+                "link": "https://business.pic.link/",
+                "image": "mzs_acc.jpg",
+                "button": "view"
+            }
+        ]
     }
 }

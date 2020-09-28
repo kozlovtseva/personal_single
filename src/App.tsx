@@ -7,6 +7,7 @@ import Header from "./components/header/Header";
 import About from "./components/about/About";
 import SkillsTitle from "./components/skills/SkillsTitle";
 import Skills from "./components/skills/Skills";
+import Portfolio from "./components/portfolio/Portfolio";
 
 const App: React.FC<{}> = () => {
     return (
@@ -17,6 +18,7 @@ const App: React.FC<{}> = () => {
                     <About />
                     <SkillsTitle />
                     <Skills />
+                    <Portfolio />
                 </Suspense>
             </Wrapper>
         </ThemeProvider>
