@@ -73,14 +73,14 @@
             {
                 "name": "Coursera Inc.(Гонконгский университет науки и технологий)",
                 "year": "2019",
-                "image": "corsera.jpg",
+                "image": "coursera.jpg",
                 "type": "специализация",
                 "specialization": [
                     "Full-Stack Web Development with React(Bootstrap, React, ReactNative, NodeJS, Express, MongoDB)"
                 ]
             },
             {
-                "name": "РГГУ",
+                "name": "РГГУ(Российский государственный гуманитарный университет)",
                 "year": "2011",
                 "image": "rggu.jpg",
                 "type": "высшее образование",

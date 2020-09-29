@@ -5,18 +5,17 @@ import throttle from "lodash.throttle";
 //@param {number} throttleMilliseconds - listener throttle in ms
 
 export default function CheckVisibility<Element extends HTMLElement>(
-    throttleMilliseconds = 100
+    throttleMilliseconds = 300
 ): [Boolean, React.RefObject<Element>] {
     const [isVisible, setIsVisible] = useState(false);
     const currentElement = createRef<Element>();
 
     const onScroll = throttle(() => {
         if (!currentElement.current) {
-            setIsVisible(false);
             return;
         }
         const top = currentElement.current.getBoundingClientRect().top;
-        setIsVisible(top >= 0 && top <= window.innerHeight);
+        if (top >= 0 && top <= window.innerHeight) setIsVisible(true);
     }, throttleMilliseconds);
 
     useEffect(() => {

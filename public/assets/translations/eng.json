@@ -65,6 +65,41 @@
                 "image": "mzs_acc.jpg",
                 "button": "view"
             }
-        ]
+        ],
+        "education": {
+            "title": "Education",
+            "list": [
+                {
+                    "name": "Coursera Inc.(The Hong Kong University of Science and Technology)",
+                    "year": "2019",
+                    "image": "coursera.jpg",
+                    "type": "specialization",
+                    "specialization": [
+                        "Full-Stack Web Development with React(Bootstrap, React, ReactNative, NodeJS, Express, MongoDB)"
+                    ]
+                },
+                {
+                    "name": "The Russian State University for the Humanities",
+                    "year": "2011",
+                    "image": "rggu.jpg",
+                    "type": "highter education",
+                    "specialization": [
+                        "the Department of linguistics",
+                        "Faculty of Theoretical and Applied Linguistics",
+                        "Languages and Communication Faculty Specialization"
+                    ]
+                },
+                {
+                    "name": "Geekbrains (educational center)",
+                    "year": "2018",
+                    "image": "gb.jpg",
+                    "type": "professional training course",
+                    "specialization": [
+                        "course of professional training (frontend development)",
+                        "traineeship"
+                    ]
+                }
+            ]
+        }
     }
 }
