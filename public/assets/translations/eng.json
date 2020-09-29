@@ -100,6 +100,316 @@
                     ]
                 }
             ]
+        },
+        "certificates": {
+            "specialization": [
+                {
+                    "name": "Full-Stack Web Development with React",
+                    "topics": [
+                        "Front-end and hybrid mobile development, with server-side support, for implementing a multi-platform solution",
+                        "Front-end frameworks: Bootstrap 4 and React. Creating hybrid mobile applications, using React Native. Implementing NoSQL databases using MongoDB, working within a Node.js environment and Express framework, and communicating to the client side through a RESTful API"
+                    ],
+                    "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/C23KKBT2B3MC"
+                },
+                {
+                    "name": "Front-End Web UI Frameworks and Tools: Bootstrap4",
+                    "topics": [
+                        "Client-side web UI frameworks, in particular Bootstrap 4",
+                        "Grids and responsive design",
+                        "Bootstrap CSS and JavaScript components",
+                        "CSS preprocessors, Less and Sass",
+                        "Basics of NodeJS and NPM",
+                        "Grunt and Gulp"
+                    ],
+                    "link": "https://www.coursera.org/account/accomplishments/certificate/KXTZK3R876CX"
+                },
+                {
+                    "name": "Front-End Web Development with React",
+                    "topics": [
+                        "Javascript based front-end application development",
+                        "React library (Ver. 16.3)",
+                        "JavaScript ES6 for developing React application",
+                        "Use of Reactstrap for Bootstrap 4-based responsive UI design",
+                        "React Components. React Router",
+                        "Designing controlled forms",
+                        "Flux architecture and Redux. React-Redux powered applications",
+                        "Fetch for client-server communication and REST API on the server side",
+                        "React animation support and testing"
+                    ],
+                    "link": "https://www.coursera.org/account/accomplishments/certificate/533M8WXREJKX"
+                },
+                {
+                    "name": "Multiplatform Mobile App Development with React Native",
+                    "topics": [
+                        "Developing truly cross-platform, native iOS and Android apps using React Native (Ver 0.55) and the Expo SDK (Ver. 27.0.0)",
+                        "UI development with React Native UI and layout support and access the native mobile platform's capabilities from Javascript using the Expo SDK"
+                    ],
+                    "link": "https://www.coursera.org/account/accomplishments/certificate/LHVCX4DXYWEU"
+                },
+                {
+                    "name": "Server-side Development with NodeJS, Exprss and MongoDB",
+                    "topics": [
+                        "NodeJS and NodeJS modules: Express for building web servers",
+                        "Web protocols: HTTP and HTTPS",
+                        "CRUD operations, NoSQL databases",
+                        "MongoDB and Mongoose",
+                        "REST concepts, RESTful API",
+                        "Authentication and security",
+                        "Backend as a service (BaaS) approaches"
+                    ],
+                    "link": "https://www.coursera.org/account/accomplishments/certificate/DSF5NGRH9D3V"
+                }
+            ],
+            "courses": [
+                {
+                    "name": "Traineeship",
+                    "topics": [
+                        "Remote project development in a team",
+                        "Development methodologies",
+                        "Types of testing",
+                        "Creating a resume"
+                    ],
+                    "link": "https://geekbrains.ru/certificates/544786"
+                },
+                {
+                    "name": "JavaScript. Part 1",
+                    "topics": [
+                        "JavaScript basics",
+                        "Main JavaScript operators",
+                        "Loops, arrays and data structures",
+                        "Objects in JavaScript",
+                        "Introduction to DOM",
+                        "Event handling in JavaScript",
+                        "Anonymous functions, closures"
+                    ],
+                    "link": "https://geekbrains.ru/certificates/443493"
+                },
+                {
+                    "name": "JavaScript. Part 2",
+                    "topics": [
+                        "Modern JavaScript",
+                        "Object-oriented programming JavaScript",
+                        "Asynchronous requests",
+                        "Regular expressions",
+                        "JavaScript on server-side",
+                        "Testing and building"
+                    ],
+                    "link": "https://geekbrains.ru/certificates/471909"
+                },
+                {
+                    "name": "ReactJS",
+                    "topics": [
+                        "Introduction to ReactJS",
+                        "Life cycle of React components",
+                        "Virtual DOM",
+                        "Styling of React components",
+                        "Event handling",
+                        "Routing in React",
+                        "Redux",
+                        "Dealing with API"
+                    ],
+                    "link": "https://geekbrains.ru/certificates/515945"
+                },
+                {
+                    "name": "HTML/CSS",
+                    "topics": [
+                        "Basic concepts in web development",
+                        "Basics of HTML and CSS",
+                        "Pseudo-classes and pseudo-elements, table layout",
+                        "Making block model, block layout",
+                        "Working with design layout in PSD format",
+                        "Website layout, Bootstrap",
+                        "Web standards and supporting tools"
+                    ],
+                    "link": "https://geekbrains.ru/certificates/408889"
+                },
+                {
+                    "name": "HTML5/CSS3",
+                    "topics": [
+                        "HTML5: Semantic elements",
+                        "Elements positioning, Practical layout",
+                        "HTML5 forms. Adding audio and video on a web page ",
+                        "CSS for background. Using SVG",
+                        "Working with a text. Boarders in CSS3",
+                        "Transition and transformation effects in CSS3",
+                        "Responsive layout",
+                        "Advanced studying of CSS3. SASS. Flexbox"
+                    ],
+                    "link": "https://geekbrains.ru/certificates/441550"
+                },
+                {
+                    "name": "Programming basics",
+                    "topics": [
+                        "Data typeыs. Operations with different data types. Converting data types",
+                        "Algorithmic thinking. Visual block diagrams",
+                        "Choosing options in a programm. If as a branch operator",
+                        "Complex choosing conditions. Logical AND, OR. ",
+                        "Do and while loops",
+                        "For loop",
+                        "Large data sets and arrays",
+                        "Functions"
+                    ],
+                    "link": "https://geekbrains.ru/certificates/389807"
+                },
+                {
+                    "name": "Web Development",
+                    "topics": [
+                        "Basics of PHP",
+                        "Related data storage and processing",
+                        "Working with loops",
+                        "Practice"
+                    ],
+                    "link": "https://geekbrains.ru/certificates/394719"
+                },
+                {
+                    "name": "Basics of database",
+                    "topics": [
+                        "Relational database",
+                        "Installing Database Management System",
+                        "Database design, normal forms",
+                        "SQL comands",
+                        "Data consistency",
+                        "Foreign key, composite primary key",
+                        "Creating tables with a many-to-many relationship, combining data from multiple tables",
+                        "Operators",
+                        "Aggregating functions",
+                        "Indexes. Transactions"
+                    ],
+                    "link": "https://geekbrains.ru/certificates/504597"
+                },
+                {
+                    "name": "Git",
+                    "topics": [
+                        "Introduction to version control systems",
+                        "Working with the command line",
+                        "Working locally with the Git repository",
+                        "Basic operations",
+                        "History of a git project",
+                        "Branches",
+                        "Versioning",
+                        "Merges and transfers",
+                        "Gitflow",
+                        "SSH protocol"
+                    ],
+                    "link": "https://geekbrains.ru/certificates/483703"
+                },
+                {
+                    "name": "Introductory course on Figma editor",
+                    "topics": [
+                        "Project architecture",
+                        "Figma and key features, overview of the start window",
+                        "Shapes, shadows, rounding, gradient",
+                        "Effects, layer blending modes, layer transparency",
+                        "Working with text and components",
+                        "Prototyping; version history; Dev HandOff"
+                    ],
+                    "link": "https://geekbrains.ru/certificates/692295"
+                }
+            ],
+            "tests": [
+                {
+                    "name": "Programming basics",
+                    "topics": [
+                        "Operators and functions",
+                        "Basic concepts",
+                        "Problem statement and algorithmization",
+                        "Programming basics"
+                    ],
+                    "link": "https://geekbrains.ru/certificates/483393"
+                },
+                {
+                    "name": "HTML&CSS. Entry-level",
+                    "topics": [
+                        "HTML tags and attributes",
+                        "HTML forms",
+                        "Working with text and tables",
+                        "HTML&CSS basics",
+                        "CSS selectors",
+                        "Working with blocks"
+                    ],
+                    "link": "https://geekbrains.ru/certificates/446513"
+                },
+                {
+                    "name": "HTML&CSS. Average level",
+                    "topics": [
+                        "HTML5 features",
+                        "Working with images",
+                        "Fonts in HTML",
+                        "Features of the hypertext markup language",
+                        "Pseudo-classes and pseudo-elements",
+                        "Elements location on a page",
+                        "CSS advantages",
+                        "Tags attributes",
+                        "Responsive layout",
+                        "Cross-browser compatibility and validity",
+                        "Code reduction techniques"
+                    ],
+                    "link": "https://geekbrains.ru/certificates/491889"
+                },
+                {
+                    "name": "HTML&CSS. Advanced level",
+                    "topics": [
+                        "HTML5 structure",
+                        "Preprocessors",
+                        "Adding audio and video to a page",
+                        "Responsive layout",
+                        "Elements location",
+                        "Working with forms"
+                    ],
+                    "link": "https://geekbrains.ru/certificates/498620"
+                },
+                {
+                    "name": "Javascript. Entry-level",
+                    "topics": [
+                        "Loops",
+                        "The basics of the syntax",
+                        "Functions and function expressions",
+                        "The standard operators. Conditional operators",
+                        "Strings",
+                        "Variables and data types",
+                        "User interaction",
+                        "Logical operators",
+                        "Comparison operators",
+                        "Javascript features and code organization",
+                        "Arrays",
+                        "Object-oriented programming ",
+                        "Dom selectors",
+                        "Introduction to functional expressions. How functions work"
+                    ],
+                    "link": "https://geekbrains.ru/certificates/484821"
+                },
+                {
+                    "name": "Javascript. Advanced level",
+                    "topics": [
+                        "Scopes and closures",
+                        "Working with dom",
+                        "Features of working with numbers",
+                        "Features of working with strings",
+                        "Introduction to objects",
+                        "Working with arrays",
+                        "Date and time",
+                        "Objects (methods, context, transformation)",
+                        "Using settimeout and setinterval",
+                        "Working with events"
+                    ],
+                    "link": "https://geekbrains.ru/certificates/510848"
+                },
+                {
+                    "name": "Английский язык. Pre-intermediate",
+                    "topics": ["Grammar", "Vocabulary"],
+                    "link": "https://geekbrains.ru/certificates/446575"
+                },
+                {
+                    "name": "Английский язык. Intermediate",
+                    "topics": ["Grammar", "Vocabulary"],
+                    "link": "https://geekbrains.ru/certificates/446583"
+                },
+                {
+                    "name": "Английский язык. Upper-intermediate",
+                    "topics": ["Grammar", "Vocabulary"],
+                    "link": "https://geekbrains.ru/certificates/447028"
+                }
+            ]
         }
     }
 }
