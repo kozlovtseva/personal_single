@@ -21,10 +21,14 @@ const Button = styled.button`
     background: ${(props) => props.theme.color.primary};
     border: none;
     border-radius: 10px;
+    display: block;
     height: 26px;
     line-height: 26px;
-    margin: 10px auto;
+    margin: 20px auto;
     width: 135px;
+    ${media.md} {
+        margin: 10px auto;
+    }
     ${media.xs} {
         margin: 5px auto;
     }

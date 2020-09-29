@@ -8,6 +8,7 @@ import About from "./components/about/About";
 import SkillsTitle from "./components/skills/SkillsTitle";
 import Skills from "./components/skills/Skills";
 import Portfolio from "./components/portfolio/Portfolio";
+import EducationTitle from "./components/education/EducationTitle";
 
 const App: React.FC<{}> = () => {
     return (
@@ -19,6 +20,7 @@ const App: React.FC<{}> = () => {
                     <SkillsTitle />
                     <Skills />
                     <Portfolio />
+                    <EducationTitle />
                 </Suspense>
             </Wrapper>
         </ThemeProvider>

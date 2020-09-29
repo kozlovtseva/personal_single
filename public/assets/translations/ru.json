@@ -66,5 +66,40 @@
                 "button": "посмотреть"
             }
         ]
+    },
+    "education": {
+        "title": "Образование",
+        "list": [
+            {
+                "name": "Coursera Inc.(Гонконгский университет науки и технологий)",
+                "year": "2019",
+                "image": "corsera.jpg",
+                "type": "специализация",
+                "specialization": [
+                    "Full-Stack Web Development with React(Bootstrap, React, ReactNative, NodeJS, Express, MongoDB)"
+                ]
+            },
+            {
+                "name": "РГГУ",
+                "year": "2011",
+                "image": "rggu.jpg",
+                "type": "высшее образование",
+                "specialization": [
+                    "факультет лингвистики",
+                    "специальность: Теоретическая и прикладная лингвистика",
+                    "специализация: Языки и коммуникации"
+                ]
+            },
+            {
+                "name": "Учебный центр Geekbrains",
+                "year": "2018",
+                "image": "gb.jpg",
+                "type": "курс профподготовки",
+                "specialization": [
+                    "курс профессионального обучения по программе Frontend-разработчик",
+                    "стажировка"
+                ]
+            }
+        ]
     }
 }
