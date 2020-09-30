@@ -10,19 +10,18 @@ import EducationListItem from "./EducationListItem";
 const Education: React.FC<{}> = () => {
     const { t } = useTranslation();
     const educationList: any = t("education.list", { returnObjects: true });
-    console.log(t("education.list", { returnObjects: true }));
     const list = educationList.map((item: EducationItem, index: number) => (
         <EducationListItem item={item} key={index} />
     ));
 
     return (
-        <Section>
+        <Container>
             <List>{list}</List>
-        </Section>
+        </Container>
     );
 };
 
-const Section = styled.section`
+const Container = styled.div`
     background: linear-gradient(
             rgba(255, 255, 255, 0.7),
             rgba(255, 255, 255, 0.7)

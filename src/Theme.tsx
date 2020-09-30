@@ -15,6 +15,7 @@ export const media = {
 export const theme = {
     color: {
         primary: "#9BE9E9",
+        primaryActive: "#2CDFDF",
         lightText: "#fff",
         lightDarkText: "#777",
         darkText: "#000",

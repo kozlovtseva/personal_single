@@ -15,16 +15,16 @@ const EducationTitle: React.FC<{}> = () => {
     const { t } = useTranslation();
     const [isRefVisible, ref] = CheckVisibility<HTMLDivElement>();
     return (
-        <Section>
+        <Container>
             <Wrapper ref={ref} isRefVisible={isRefVisible}>
                 <BigTitle title={t("education.title")} color="primary" />
             </Wrapper>
             <ComputerImage />
-        </Section>
+        </Container>
     );
 };
 
-const Section = styled.section`
+const Container = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

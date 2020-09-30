@@ -15,3 +15,16 @@ export interface EducationItem {
     type: string;
     specialization: string[];
 }
+export interface CertificatesItemTypes {
+    name: string;
+    topics: string[];
+    link: string;
+}
+export interface CertificatesTypes {
+    id: number;
+    items: CertificatesItemTypes[];
+}
+export interface Filter {
+    id: number;
+    name: string;
+}

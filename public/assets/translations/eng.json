@@ -65,44 +65,61 @@
                 "image": "mzs_acc.jpg",
                 "button": "view"
             }
-        ],
-        "education": {
-            "title": "Education",
-            "list": [
-                {
-                    "name": "Coursera Inc.(The Hong Kong University of Science and Technology)",
-                    "year": "2019",
-                    "image": "coursera.jpg",
-                    "type": "specialization",
-                    "specialization": [
-                        "Full-Stack Web Development with React(Bootstrap, React, ReactNative, NodeJS, Express, MongoDB)"
-                    ]
-                },
-                {
-                    "name": "The Russian State University for the Humanities",
-                    "year": "2011",
-                    "image": "rggu.jpg",
-                    "type": "highter education",
-                    "specialization": [
-                        "the Department of linguistics",
-                        "Faculty of Theoretical and Applied Linguistics",
-                        "Languages and Communication Faculty Specialization"
-                    ]
-                },
-                {
-                    "name": "Geekbrains (educational center)",
-                    "year": "2018",
-                    "image": "gb.jpg",
-                    "type": "professional training course",
-                    "specialization": [
-                        "course of professional training (frontend development)",
-                        "traineeship"
-                    ]
-                }
-            ]
+        ]
+    },
+    "education": {
+        "title": "Education",
+        "list": [
+            {
+                "name": "Coursera Inc.(The Hong Kong University of Science and Technology)",
+                "year": "2019",
+                "image": "coursera.jpg",
+                "type": "specialization",
+                "specialization": [
+                    "Full-Stack Web Development with React(Bootstrap, React, ReactNative, NodeJS, Express, MongoDB)"
+                ]
+            },
+            {
+                "name": "The Russian State University for the Humanities",
+                "year": "2011",
+                "image": "rggu.jpg",
+                "type": "highter education",
+                "specialization": [
+                    "the Department of linguistics",
+                    "Faculty of Theoretical and Applied Linguistics",
+                    "Languages and Communication Faculty Specialization"
+                ]
+            },
+            {
+                "name": "Geekbrains (educational center)",
+                "year": "2018",
+                "image": "gb.jpg",
+                "type": "professional training course",
+                "specialization": [
+                    "course of professional training (frontend development)",
+                    "traineeship"
+                ]
+            }
+        ]
+    },
+    "filters": [
+        {
+            "id": 0,
+            "name": "specialization"
         },
-        "certificates": {
-            "specialization": [
+        {
+            "id": 1,
+            "name": "courses"
+        },
+        {
+            "id": 2,
+            "name": "tests"
+        }
+    ],
+    "certificates": [
+        {
+            "id": 0,
+            "items": [
                 {
                     "name": "Full-Stack Web Development with React",
                     "topics": [
@@ -159,8 +176,11 @@
                     ],
                     "link": "https://www.coursera.org/account/accomplishments/certificate/DSF5NGRH9D3V"
                 }
-            ],
-            "courses": [
+            ]
+        },
+        {
+            "id": 1,
+            "items": [
                 {
                     "name": "Traineeship",
                     "topics": [
@@ -305,8 +325,11 @@
                     ],
                     "link": "https://geekbrains.ru/certificates/692295"
                 }
-            ],
-            "tests": [
+            ]
+        },
+        {
+            "id": 2,
+            "items": [
                 {
                     "name": "Programming basics",
                     "topics": [
@@ -411,5 +434,5 @@
                 }
             ]
         }
-    }
+    ]
 }

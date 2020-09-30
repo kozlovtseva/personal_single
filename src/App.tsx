@@ -10,6 +10,7 @@ import Skills from "./components/skills/Skills";
 import Portfolio from "./components/portfolio/Portfolio";
 import EducationTitle from "./components/education/EducationTitle";
 import Education from "./components/education/Education";
+import Certificates from "./components/education/Certificates";
 
 const App: React.FC<{}> = () => {
     return (
@@ -18,11 +19,16 @@ const App: React.FC<{}> = () => {
                 <Suspense fallback={null}>
                     <Header />
                     <About />
-                    <SkillsTitle />
-                    <Skills />
+                    <Section>
+                        <SkillsTitle />
+                        <Skills />
+                    </Section>
                     <Portfolio />
-                    <EducationTitle />
-                    <Education />
+                    <Section>
+                        <EducationTitle />
+                        <Education />
+                        <Certificates />
+                    </Section>
                 </Suspense>
             </Wrapper>
         </ThemeProvider>
@@ -33,5 +39,6 @@ const Wrapper = styled.div`
     margin: 0 auto;
     max-width: 1440px;
 `;
+const Section = styled.section``;
 
 export default App;

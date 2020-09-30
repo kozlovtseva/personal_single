@@ -15,7 +15,7 @@ const SkillsTitle: React.FC<{}> = () => {
     const { t } = useTranslation();
     const [isRefVisible, ref] = CheckVisibility<HTMLDivElement>();
     return (
-        <Section>
+        <Container>
             <Wrapper>
                 <SmallTitle title={t("skills.title")} color="lightText" />
                 <Subtitle ref={ref} isRefVisible={isRefVisible}>
@@ -25,11 +25,11 @@ const SkillsTitle: React.FC<{}> = () => {
             <Wrapper>
                 <NoteImage />
             </Wrapper>
-        </Section>
+        </Container>
     );
 };
 
-const Section = styled.section`
+const Container = styled.div`
     background-color: ${(props) => props.theme.color.primary};
     display: flex;
     flex-wrap: wrap;

@@ -3,7 +3,7 @@ import { EducationItem } from "../../interfaces/data";
 
 import { styled, media } from "../../Theme";
 
-export interface Props {
+interface Props {
     item: EducationItem;
 }
 

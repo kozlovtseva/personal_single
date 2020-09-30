@@ -1,16 +1,10 @@
 import React from "react";
 
-import { styled } from "../../Theme";
+// import { styled } from "../../Theme";
 import BubbleSkills from "./BubbleSkills.jsx";
 
 const Skills: React.FC<{}> = () => {
-    return (
-        <Section>
-            <BubbleSkills />
-        </Section>
-    );
+    return <BubbleSkills />;
 };
-
-const Section = styled.section``;
 
 export default Skills;
