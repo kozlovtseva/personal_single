@@ -48,8 +48,8 @@ const steam = css`
     background-color: #fff;
     height: 50px;
     left: 60px;
-    margin-top: -75px;
-    margin-left: 75px;
+    margin-top: -60px;
+    margin-left: 70px;
     opacity: 0;
     position: absolute;
     width: 50px;

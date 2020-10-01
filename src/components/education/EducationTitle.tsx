@@ -33,8 +33,11 @@ const Wrapper = styled.div`
     animation: ${(props: TextProps) =>
         props.isRefVisible ? "text 0.7s linear" : "none"};
     animation-fill-mode: forwards;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     opacity: 0;
+    ${media.sm} {
+        margin-bottom: 0px;
+    }
 `;
 
 export default EducationTitle;

@@ -218,10 +218,23 @@ const Bubbles = styled.div`
             width: 300px;
         }
     }
+    height: 600px;
     margin: 0 auto;
     width: fit-content;
     & .node {
         cursor: pointer;
+    }
+    ${media.md} {
+        height: 450px;
+        width: 550px;
+    }
+    ${media.sm} {
+        height: 350px;
+        width: 400px;
+    }
+    ${media.xs} {
+        height: 250px;
+        width: 300px;
     }
 `;
 export default BubbleSkills;
