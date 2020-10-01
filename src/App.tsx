@@ -13,6 +13,7 @@ import Education from "./components/education/Education";
 import Certificates from "./components/education/Certificates";
 import Contacts from "./components/contacts/Contacts";
 import Home from "./components/home/Home";
+import Footer from "./components/footer/Footer";
 
 const App: React.FC<{}> = () => {
     return (
@@ -20,19 +21,22 @@ const App: React.FC<{}> = () => {
             <Wrapper className="App">
                 <Suspense fallback={null}>
                     <Header />
-                    <About />
-                    <Section>
-                        <SkillsTitle />
-                        <Skills />
-                    </Section>
-                    <Portfolio />
-                    <Section>
-                        <EducationTitle />
-                        <Education />
-                        <Certificates />
-                    </Section>
-                    <Contacts />
-                    <Home />
+                    <Main>
+                        <About />
+                        <Section>
+                            <SkillsTitle />
+                            <Skills />
+                        </Section>
+                        <Portfolio />
+                        <Section>
+                            <EducationTitle />
+                            <Education />
+                            <Certificates />
+                        </Section>
+                        <Contacts />
+                        <Home />
+                    </Main>
+                    <Footer />
                 </Suspense>
             </Wrapper>
         </ThemeProvider>
@@ -44,5 +48,6 @@ const Wrapper = styled.div`
     max-width: 1440px;
 `;
 const Section = styled.section``;
+const Main = styled.main``;
 
 export default App;

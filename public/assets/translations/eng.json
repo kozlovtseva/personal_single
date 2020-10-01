@@ -461,5 +461,21 @@
     "home": {
         "title": "HOME SWEET HOME",
         "subtitle": "I work in the remote mode and I'm always online"
+    },
+    "footer": {
+        "buttons": [
+            {
+                "name": "Designed in Figma",
+                "link": "https://www.figma.com/file/L9ov2PqvFTtNATDYW35Yyq/personal?node-id=25%3A0&viewport=2621%2C-3074%2C0.495012491941452"
+            },
+            {
+                "name": "Source code",
+                "link": "https://github.com/kozlovtseva/personal_single"
+            }
+        ],
+        "copyright": {
+            "text": "made with love and coffee",
+            "year": "2020"
+        }
     }
 }

@@ -63,30 +63,6 @@ const steam = css`
         width: 30px;
     }
 `;
-const steamFirst = css`
-    @keyframes steam-one {
-        0% {
-            transform: translateY(0) translateX(0) scale(0.25);
-            opacity: 0.5;
-        }
-        100% {
-            transform: translateY(-200px) translateX(-20px) scale(1);
-            opacity: 0;
-        }
-    }
-`;
-const steamSecond = css`
-    @keyframes steam {
-        0% {
-            transform: translateY(0) translateX(0) scale(0.25);
-            opacity: 0.5;
-        }
-        100% {
-            transform: translateY(-200px) translateX(20px) scale(1);
-            opacity: 0;
-        }
-    }
-`;
 const Wrapper = styled.div`
     & svg #back {
         ${back};
@@ -106,22 +82,18 @@ const Wrapper = styled.div`
 
 const SteamOne = styled.div`
     ${steam};
-    ${steamFirst};
     animation: steam 4s ease-out infinite;
 `;
 const SteamTwo = styled.div`
     ${steam};
-    ${steamSecond};
     animation: steam 4s ease-out 0.5s infinite;
 `;
 const SteamThree = styled.div`
     ${steam};
-    ${steamFirst};
     animation: steam 4s ease-out 1s infinite;
 `;
 const SteamFour = styled.div`
     ${steam};
-    ${steamSecond};
     animation: steam 4s ease-out 1.5s infinite;
 `;
 

@@ -48,3 +48,7 @@ export interface TextProps {
     isRefVisible: Boolean;
     theme: any;
 }
+export interface FooterButtonTypes {
+    name: string;
+    link: string;
+}

@@ -27,3 +27,14 @@ body {
         transform: translate(0);
     }
 }
+
+@keyframes steam {
+    0% {
+        transform: translateY(0) translateX(0) scale(0.25);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(-200px) translateX(20px) scale(1);
+        opacity: 0;
+    }
+}
