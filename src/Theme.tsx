@@ -19,6 +19,21 @@ export const theme = {
         lightText: "#fff",
         lightDarkText: "#777",
         darkText: "#000",
+        shine: "#EED656",
+    },
+    nightTheme: {
+        bg: "#396273",
+        sun: "#8DC4D1",
+        moon: "#EED656",
+        shadow: "#2e4e5c",
+        light: "#4d7281",
+    },
+    dayTheme: {
+        bg: "#FFF",
+        sun: "#EED656",
+        moon: "#D6C2B5",
+        shadow: "#cac2bc",
+        light: "#fff",
     },
 };
 

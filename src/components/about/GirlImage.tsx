@@ -100,6 +100,7 @@ const Wrapper = styled.div`
             width: 300px;
         }
     }
+    flex: 1 1;
     position: relative;
 `;
 

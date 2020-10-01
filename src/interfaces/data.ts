@@ -38,3 +38,13 @@ export interface PersonalDataTypes {
     contacts: ContactTypes[];
     email: string;
 }
+export interface HomeTypes {
+    title: string;
+    subtitle: string;
+    day_image: string;
+    night_image: string;
+}
+export interface TextProps {
+    isRefVisible: Boolean;
+    theme: any;
+}

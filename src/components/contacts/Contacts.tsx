@@ -35,7 +35,7 @@ const Contacts: React.FC<{}> = () => {
     );
 };
 
-const Container = styled.div`
+const Container = styled.section`
     padding: 100px;
     ${media.md} {
         padding: 50px;

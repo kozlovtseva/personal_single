@@ -4,12 +4,9 @@ import { useTranslation } from "react-i18next";
 import { styled, media } from "../../Theme";
 import BigTitle from "../UI/BigTitle";
 import CheckVisibility from "../../helpers/CheckVisibility";
-import PortfolioSlider from "./PortfolioSlider";
+import { TextProps } from "../../interfaces/data";
 
-interface TextProps {
-    isRefVisible: Boolean;
-    theme: any;
-}
+import PortfolioSlider from "./PortfolioSlider";
 
 const Portfolio: React.FC<{}> = () => {
     const { t } = useTranslation();
@@ -39,17 +36,7 @@ const Wrapper = styled.div`
         props.isRefVisible ? "text 0.7s linear" : "none"};
     animation-fill-mode: forwards;
     margin-bottom: 100px;
-    @keyframes text {
-        0% {
-            opacity: 0;
-            transform: translateX(-100px);
-        }
-
-        100% {
-            opacity: 1;
-            transform: translate(0);
-        }
-    }
+    opacity: 0;
 `;
 const Subtitle = styled.p`
     color: ${(props) => props.theme.color.lightText};

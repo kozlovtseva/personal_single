@@ -454,5 +454,9 @@
             }
         ],
         "email": "alina.lm@mail.ru"
+    },
+    "home": {
+        "title": "HOME SWEET HOME",
+        "subtitle": "работаю только из дома - всегда online"
     }
 }

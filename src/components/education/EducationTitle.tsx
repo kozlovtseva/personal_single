@@ -5,11 +5,7 @@ import { styled, media } from "../../Theme";
 import BigTitle from "../UI/BigTitle";
 import ComputerImage from "./ComputerImage";
 import CheckVisibility from "../../helpers/CheckVisibility";
-
-interface TextProps {
-    isRefVisible: Boolean;
-    theme: any;
-}
+import { TextProps } from "../../interfaces/data";
 
 const EducationTitle: React.FC<{}> = () => {
     const { t } = useTranslation();
@@ -38,17 +34,7 @@ const Wrapper = styled.div`
         props.isRefVisible ? "text 0.7s linear" : "none"};
     animation-fill-mode: forwards;
     margin-bottom: 100px;
-    @keyframes text {
-        0% {
-            opacity: 0;
-            transform: translateX(-100px);
-        }
-
-        100% {
-            opacity: 1;
-            transform: translate(0);
-        }
-    }
+    opacity: 0;
 `;
 
 export default EducationTitle;

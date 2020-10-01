@@ -457,5 +457,9 @@
             }
         ],
         "email": "alina.lm@mail.ru"
+    },
+    "home": {
+        "title": "HOME SWEET HOME",
+        "subtitle": "I work in the remote mode and I'm always online"
     }
 }

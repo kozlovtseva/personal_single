@@ -34,17 +34,6 @@ const Title = styled.h3`
     ${media.sm} {
         font-size: 0.7em;
     }
-    @keyframes text {
-        0% {
-            opacity: 0;
-            transform: translateX(-100px);
-        }
-
-        100% {
-            opacity: 1;
-            transform: translate(0);
-        }
-    }
 `;
 
 export default SmallTitle;

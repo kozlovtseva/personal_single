@@ -5,11 +5,7 @@ import { styled, media } from "../../Theme";
 import SmallTitle from "../UI/SmallTitle";
 import NoteImage from "./NoteImage";
 import CheckVisibility from "../../helpers/CheckVisibility";
-
-interface TextProps {
-    isRefVisible: Boolean;
-    theme: any;
-}
+import { TextProps } from "../../interfaces/data";
 
 const SkillsTitle: React.FC<{}> = () => {
     const { t } = useTranslation();
@@ -51,17 +47,6 @@ const Subtitle = styled.p`
     opacity: 0;
     ${media.sm} {
         font-size: 0.5em;
-    }
-    @keyframes text {
-        0% {
-            opacity: 0;
-            transform: translateX(-100px);
-        }
-
-        100% {
-            opacity: 1;
-            transform: translate(0);
-        }
     }
 `;
 
