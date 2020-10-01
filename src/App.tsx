@@ -11,6 +11,7 @@ import Portfolio from "./components/portfolio/Portfolio";
 import EducationTitle from "./components/education/EducationTitle";
 import Education from "./components/education/Education";
 import Certificates from "./components/education/Certificates";
+import Contacts from "./components/contacts/Contacts";
 
 const App: React.FC<{}> = () => {
     return (
@@ -29,6 +30,7 @@ const App: React.FC<{}> = () => {
                         <Education />
                         <Certificates />
                     </Section>
+                    <Contacts />
                 </Suspense>
             </Wrapper>
         </ThemeProvider>

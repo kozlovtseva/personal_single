@@ -431,5 +431,28 @@
                 }
             ]
         }
-    ]
+    ],
+    "personal": {
+        "contacts": [
+            {
+                "name": "github",
+                "link": "https://github.com/kozlovtseva?tab=repositories",
+                "image": "github.svg",
+                "text_image": ""
+            },
+            {
+                "name": "telegram",
+                "link": "https://t.me/a_kozlovtseva",
+                "image": "telegram.svg",
+                "text_image": ""
+            },
+            {
+                "name": "HeadHunter",
+                "link": "https://dmitrov.hh.ru/resume/ff70e844ff0761ae5f0039ed1f64434a545164",
+                "image": "",
+                "text_image": "hh"
+            }
+        ],
+        "email": "alina.lm@mail.ru"
+    }
 }

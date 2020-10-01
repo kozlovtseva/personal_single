@@ -7,7 +7,7 @@ const ContactsAnchor: React.FC<{}> = () => {
     const { t } = useTranslation();
     return (
         <Wrapper>
-            <Anchor href="#">{t("header.anchor")}</Anchor>
+            <Anchor href="#contacts">{t("header.anchor")}</Anchor>
             <Arrow>
                 <ArrowBody />
                 <ArrowHead />

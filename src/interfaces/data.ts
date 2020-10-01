@@ -28,3 +28,13 @@ export interface Filter {
     id: number;
     name: string;
 }
+export interface ContactTypes {
+    name: string;
+    link: string;
+    image: string;
+    text_image: string;
+}
+export interface PersonalDataTypes {
+    contacts: ContactTypes[];
+    email: string;
+}

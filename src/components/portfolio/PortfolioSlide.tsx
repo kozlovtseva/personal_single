@@ -54,7 +54,6 @@ const Wrapper = styled.div`
     margin: 0 auto;
     position: relative;
     width: 350px;
-
     ${slideMedia};
 `;
 

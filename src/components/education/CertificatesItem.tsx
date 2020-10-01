@@ -70,10 +70,10 @@ const Arrow = styled.div`
     right: 20px;
     bottom: 20px;
     &:hover {
-        animation: bounce 0.6s infinite alternate;
+        animation: bounceToRight 0.6s infinite alternate;
         cursor: pointer;
     }
-    @keyframes bounce {
+    @keyframes bounceToRight {
         from {
             transform: translate3d(0, 0, 0);
         }
