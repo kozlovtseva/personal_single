@@ -27,9 +27,13 @@ const Wrapper = styled.header`
         center top url(${Background}) no-repeat;
     background-size: cover;
     height: 100vh;
+    min-height: 500px;
     overflow: hidden;
     padding: 35px;
     position: relative;
+    ${media.xs} {
+        padding: 15px;
+    }
 `;
 const title = css`
     ${media.xs} {
@@ -48,6 +52,9 @@ const Title = styled.h1`
     ${title};
     ${media.sm} {
         margin-top: 200px;
+    }
+    ${media.xs} {
+        margin-top: 150px;
     }
     margin-top: 25vh;
 `;

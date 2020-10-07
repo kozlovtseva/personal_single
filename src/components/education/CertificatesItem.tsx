@@ -56,7 +56,7 @@ const Container = styled.li`
 const Title = styled.h4`
     color: ${(props: any) => props.theme.color.lightDarkText};
     font-size: 0.5em;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 20px;
 `;
 const Text = styled.p`

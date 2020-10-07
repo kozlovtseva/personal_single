@@ -29,7 +29,7 @@ const Footer: React.FC<{}> = () => {
                     ))}
                 </Buttons>
             </Container>
-            <Text>{"@" + t("footer.copyright.year")}</Text>
+            <Text>{"©" + t("footer.copyright.year")}</Text>
             <Text>{t("footer.copyright.text")}</Text>
         </Wrapper>
     );
